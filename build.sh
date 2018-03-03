@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 set -e
 
@@ -14,7 +14,7 @@ function clean {
 
 function build_site {
 	  echo "building site"
-	  npm run build
+    npm run build
 	  bundle exec jekyll build
 }
 
